@@ -24,11 +24,11 @@ spec:
           value: "SERVICE_TYPE=BACKEND"
         resources:
           limits:
-            cpu: 500m
-            memory: 2048Mi
+            cpu: 400m
+            memory: 500Mi
           requests:
             cpu: 100m
-            memory: 768Mi
+            memory: 250Mi
         ports:
         - containerPort: 8080
         volumeMounts:
